@@ -15,6 +15,8 @@
 		4406FB0E1D362CB400814C4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4406FB0C1D362CB400814C4C /* LaunchScreen.storyboard */; };
 		4406FB191D362CB400814C4C /* jsq3_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4406FB181D362CB400814C4C /* jsq3_0Tests.swift */; };
 		4406FB241D362CB400814C4C /* jsq3_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4406FB231D362CB400814C4C /* jsq3_0UITests.swift */; };
+		4406FB321D36305600814C4C /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4406FB311D36305600814C4C /* libsqlite3.0.tbd */; };
+		4406FB351D36364000814C4C /* DVA爱你呦.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4406FB341D36364000814C4C /* DVA爱你呦.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,9 @@
 		4406FB1F1D362CB400814C4C /* jsq3.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jsq3.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4406FB231D362CB400814C4C /* jsq3_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsq3_0UITests.swift; sourceTree = "<group>"; };
 		4406FB251D362CB400814C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4406FB311D36305600814C4C /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		4406FB331D36309200814C4C /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		4406FB341D36364000814C4C /* DVA爱你呦.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DVA爱你呦.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4406FB321D36305600814C4C /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +85,8 @@
 		4406FAF41D362CB400814C4C = {
 			isa = PBXGroup;
 			children = (
+				4406FB341D36364000814C4C /* DVA爱你呦.jpg */,
+				4406FB311D36305600814C4C /* libsqlite3.0.tbd */,
 				4406FAFF1D362CB400814C4C /* jsq3.0 */,
 				4406FB171D362CB400814C4C /* jsq3.0Tests */,
 				4406FB221D362CB400814C4C /* jsq3.0UITests */,
@@ -104,6 +112,7 @@
 				4406FB041D362CB400814C4C /* Main.storyboard */,
 				4406FB0A1D362CB400814C4C /* Assets.xcassets */,
 				4406FB0C1D362CB400814C4C /* LaunchScreen.storyboard */,
+				4406FB331D36309200814C4C /* Header.h */,
 				4406FB0F1D362CB400814C4C /* Info.plist */,
 				4406FB071D362CB400814C4C /* jsq3_0.xcdatamodeld */,
 			);
@@ -235,6 +244,7 @@
 				4406FB0E1D362CB400814C4C /* LaunchScreen.storyboard in Resources */,
 				4406FB0B1D362CB400814C4C /* Assets.xcassets in Resources */,
 				4406FB061D362CB400814C4C /* Main.storyboard in Resources */,
+				4406FB351D36364000814C4C /* DVA爱你呦.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +417,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "www.Swiftv.cn.jsq3-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/20141105042hyb/Desktop/jsq3.0/jsq3.0/Header.h;
 			};
 			name = Debug;
 		};
@@ -418,6 +429,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "www.Swiftv.cn.jsq3-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/20141105042hyb/Desktop/jsq3.0/jsq3.0/Header.h;
 			};
 			name = Release;
 		};
@@ -486,6 +498,7 @@
 				4406FB2A1D362CB400814C4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4406FB2B1D362CB400814C4C /* Build configuration list for PBXNativeTarget "jsq3.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +507,7 @@
 				4406FB2D1D362CB400814C4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4406FB2E1D362CB400814C4C /* Build configuration list for PBXNativeTarget "jsq3.0UITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +516,7 @@
 				4406FB301D362CB400814C4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
